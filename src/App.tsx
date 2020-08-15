@@ -3,7 +3,6 @@ import {
   HashRouter as Router,
   Switch,
   Route,
-  Link,
   Redirect
 } from 'react-router-dom';
 import styled from 'styled-components';
@@ -20,7 +19,6 @@ const Main = styled.div`
   // border:1px green solid;
   flex-grow:1;
   overflow:auto;
-  
 `;
 
 function App() {
