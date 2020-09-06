@@ -11,7 +11,6 @@ const NumberPadSection: React.FC<Props> = (props) => {
   const output = props.value.toString()
   const setOutput = (output:string)=>{
     let value;
-    console.log({output})
     if(output.length > 16) {
       value = parseFloat(output.slice(0,16))
     }else if(output.length ===0){
